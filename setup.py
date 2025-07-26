@@ -88,7 +88,7 @@ class Environment():
         self._check_permission()
         self._check_system()
         self._check_python()
-        self._output_runtime_info()
+        self._output_runtime_info() 
         self._check_pip()
         self._upgrade_pip()
         self._set_env_vars()
